@@ -16,12 +16,12 @@ A hands-on cloud infrastructure and reliability engineering project focused on s
 ```text
 Windows Host
     |
-    | localhost:8000
+    | localhost:8080
     v
 FastAPI Container
     |
     | Docker internal network
-    | db:5432
+    | db
     v
 PostgreSQL Container
     |
